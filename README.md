@@ -16,12 +16,12 @@ package has an implicit dependency on Go 1.7+.
 
 ## Installation
 ```
-go get -u github.com/gofrs/flock
+go get -u github.com/mikhail-artemev/flock
 ```
 
 ## Usage
 ```Go
-import "github.com/gofrs/flock"
+import "github.com/mikhail-artemev/flock"
 
 fileLock := flock.New("/var/lock/go-lock.lock")
 
@@ -38,4 +38,4 @@ if locked {
 ```
 
 For more detailed usage information take a look at the package API docs on
-[GoDoc](https://godoc.org/github.com/gofrs/flock).
+[GoDoc](https://godoc.org/github.com/mikhail-artemev/flock).
